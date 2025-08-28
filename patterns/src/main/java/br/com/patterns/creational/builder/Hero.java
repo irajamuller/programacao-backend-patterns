@@ -1,4 +1,4 @@
-package br.com.patterns.creational;
+package br.com.patterns.creational.builder;
 
 public class Hero {
 	public enum Armor {

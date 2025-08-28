@@ -1,4 +1,4 @@
-package br.com.patterns.creational;
+package br.com.patterns.creational.singleton;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,10 +1,10 @@
-package br.com.patterns.creational;
+package br.com.patterns.creational.builder;
 
-import br.com.patterns.creational.Hero.Armor;
-import br.com.patterns.creational.Hero.HairColor;
-import br.com.patterns.creational.Hero.HairType;
-import br.com.patterns.creational.Hero.Profession;
-import br.com.patterns.creational.Hero.Weapon;
+import br.com.patterns.creational.builder.Hero.Armor;
+import br.com.patterns.creational.builder.Hero.HairColor;
+import br.com.patterns.creational.builder.Hero.HairType;
+import br.com.patterns.creational.builder.Hero.Profession;
+import br.com.patterns.creational.builder.Hero.Weapon;
 
 public class HeroTest {
 
