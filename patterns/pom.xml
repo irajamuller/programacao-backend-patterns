@@ -3,4 +3,40 @@
   <groupId>b</groupId>
   <artifactId>b</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+    <java.version>24</java.version> 
+    <javafx.version>20</javafx.version> 
+  </properties>
+  
+  <dependencies>
+    <!-- JavaFX base -->
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-base</artifactId>
+        <version>${javafx.version}</version>
+        <classifier>win</classifier> 
+    </dependency>
+
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>${javafx.version}</version>
+        <classifier>win</classifier>
+    </dependency>
+
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-fxml</artifactId>
+        <version>${javafx.version}</version>
+        <classifier>win</classifier>
+    </dependency>
+
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-graphics</artifactId>
+        <version>${javafx.version}</version>
+        <classifier>win</classifier>
+    </dependency>
+  </dependencies>  
 </project>

@@ -1,0 +1,18 @@
+package br.com.patterns.structural.bridge2;
+
+import javafx.scene.control.Control;
+
+public class MacButton implements NativeAPI {
+
+	@Override
+	public Control create(Component component) {
+		javafx.scene.control.Button button = new javafx.scene.control.Button(component.text);
+		button.setStyle("-fx-background-color: rgba(0,0,0,0.08), " + 
+						"linear-gradient(#9a9a9a, #909090), " + 
+						"linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%); " +
+						"-fx-background-insets: 0 0 -1 0,0,1; -fx-background-radius: 5,5,4; " +
+						"-fx-padding: 3 30 3 30; -fx-text-fill: #242d35; -fx-font-size: 14px;");
+		return button;
+	}
+
+}
